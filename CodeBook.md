@@ -32,21 +32,21 @@ standard deviations already calculated, as described above.
 
 Variable names were used according to the standards established in the class lecture, and are listed below.
 + The prefix indicates the domain of measurement
-+ time for time domain
-+ frequency for frequency domain
+   + time for time domain
+   + frequency for frequency domain
 
 + The next term, body or gravity, indicates from whence the force originated
-+ body from personal body motion
-+ gravity from gravitational force
+   + body from personal body motion
+   + gravity from gravitational force
 
 + This is followed by the type of force, acceleration or gyroscopic
 
 + The next terms in the variable names indicate what calculations were performed
-+ jerk , if listed, for the jerk force and magnitude, if listed, for the Euclidean norm
+   + jerk , if listed, for the jerk force and magnitude, if listed, for the Euclidean norm
 
 + The following terms indicate whether the measurement is a mean of standard deviation
-+ mean is indicated by mean, and standard deviation indicated by stddeviation
-+ please note that these are category and subject id based averages of the already calculated means or standard deviations of the variables
+   + mean is indicated by mean, and standard deviation indicated by stddeviation
+   + please note that these are category and subject id based averages of the already calculated means or standard deviations of the variables
 
 + The last letter of most variable names indicates the direction of motion, x, y, or z
 
