@@ -18,10 +18,9 @@ In order to create a tidy data set according to the project's goals, several ste
 3. Variable names were cleaned according to the rubrick of this class (no spaces or non-letter characters, all lowercase).  
 4. Variable names were appended to both the training and test data sets, as were subject id numbers.  
 5. A classification id was also appended, and converted from a number to an activity name.  
-6. The training and test data sets were combined into one larger data set, on a subject id basis.  
-7. Means and standard deviations of the vector angles were removed as being too derivative to contain useful information.  
-8. The averages of each variable was taken, both on a per subject, and a per activity type basis.  
-9. These averages were written to a new dataset, tidyData.txt.  
+6. The training and test data sets were combined into one larger data set, on a subject id basis.    
+7. The averages of each variable was taken, both on a per subject, and a per activity type basis.  
+8. These averages were written to a new dataset, tidyData.txt.  
 
 ## Format and variable names for tidyData.txt  
 
