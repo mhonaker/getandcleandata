@@ -13,15 +13,15 @@ Several addition parameters were estimated from these collected data, including 
 ## Creation of the Tidy Dataset
 In order to create a tidy data set according to the project's goals, several steps were completed, using R, references 3-5.
 
-> 1. The data archive was downloaded and unzipped.  
-> 2. All of the data sets and ancillary files were loaded into R.  
-> 3. Variable names were cleaned according to the rubrick of this class (no spaces or non-letter characters, all lowercase).  
-> 4. Variable names were appended to both the training and test data sets, as were subject id numbers.  
-> 5. A classification id was also appended, and converted from a number to an activity name.  
-> 6. The training and test data sets were combined into one larger data set, on a subject id basis.  
-> 7. Means and standard deviations of the vector angles were removed as being too derivative to contain useful information.  
-> 8. The averages of each variable was taken, both on a per subject, and a per activity type basis.  
-> 9. These averages were written to a new dataset, tidyData.txt.  
+1. The data archive was downloaded and unzipped.  
+2. All of the data sets and ancillary files were loaded into R.  
+3. Variable names were cleaned according to the rubrick of this class (no spaces or non-letter characters, all lowercase).  
+4. Variable names were appended to both the training and test data sets, as were subject id numbers.  
+5. A classification id was also appended, and converted from a number to an activity name.  
+6. The training and test data sets were combined into one larger data set, on a subject id basis.  
+7. Means and standard deviations of the vector angles were removed as being too derivative to contain useful information.  
+8. The averages of each variable was taken, both on a per subject, and a per activity type basis.  
+9. These averages were written to a new dataset, tidyData.txt.  
 
 ## Format and variable names for tidyData.txt  
 
@@ -31,28 +31,28 @@ Variables are in column with the names below. Please note that the observations 
 standard deviations already calculated, as described above.
 
 Variable names were used according to the standards established in the class lecture, and are listed below.
->+ The prefix indicates the domain of measurement
->>+ time for time domain
->>+ frequency for frequency domain
++ The prefix indicates the domain of measurement
++ time for time domain
++ frequency for frequency domain
 
->+ The next term, body or gravity, indicates from whence the force originated
->>+ body from personal body motion
->>+ gravity from gravitational force
++ The next term, body or gravity, indicates from whence the force originated
++ body from personal body motion
++ gravity from gravitational force
 
->+ This is followed by the type of force, acceleration or gyroscopic
++ This is followed by the type of force, acceleration or gyroscopic
 
->+ The next terms in the variable names indicate what calculations were performed
->>+ jerk , if listed, for the jerk force and magnitude, if listed, for the Euclidean norm
++ The next terms in the variable names indicate what calculations were performed
++ jerk , if listed, for the jerk force and magnitude, if listed, for the Euclidean norm
 
->+ The following terms indicate whether the measurement is a mean of standard deviation
->>+ mean is indicated by mean, and standard deviation indicated by stddeviation
->>+ please note that these are category and subject id based averages of the already calculated means or standard deviations of the variables
++ The following terms indicate whether the measurement is a mean of standard deviation
++ mean is indicated by mean, and standard deviation indicated by stddeviation
++ please note that these are category and subject id based averages of the already calculated means or standard deviations of the variables
 
->+ The last letter of most variable names indicates the direction of motion, x, y, or z
++ The last letter of most variable names indicates the direction of motion, x, y, or z
 
->+ Variable names ending in meanfreq are weighted averages of all frequency components
++ Variable names ending in meanfreq are weighted averages of all frequency components
 
->+ Variable names beginning with angle indicate calculated angles between the vectors
++ Variable names beginning with angle indicate calculated angles between the vectors
 
 ## A List of Variable Names
 subjectid  
